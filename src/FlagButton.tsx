@@ -127,7 +127,6 @@ export const FlagButton = ({
 }: FlagButtonProps) => {
   const { flagSizeButton: flagSize } = useTheme()
   return (
-    <TouchableOpacity activeOpacity={0.7} onPress={onOpen}>
       <View
         style={[
           styles.container,
@@ -148,7 +147,6 @@ export const FlagButton = ({
           }}
         />
       </View>
-    </TouchableOpacity>
   )
 }
 
